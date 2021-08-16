@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body >
+    <div class="mobile-view">
+      <div id="mobileNav">
+        <div class="container">
+          <div class="row">
+            <div >
+              <div class="row">
+                <div class="col-10">
+                  <img src="./img/footer-logo.png" id="footer-logo">
+                </div>
+                <div class="col-2">
+                  <div id="closeMobile">
+                    <img src="./img/icons/close.png">
+                  </div>
+                </div>
+              </div>
+              <div id="personal" >
+                <div class="row">
+                  <div class="col-6">
+                    <a class=" text-white home-active" id="text-white_home-active" aria-current="page" href="#">Personal</a>
+                  </div>
+                  <div class="col-6">
+                    <a id="business" href="#">Business</a>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between">
+                <ul id="navbar-nav" class="navbar-nav me-auto mb-2 mb-lg-0" >
+                    <li id="nav-item-driodown" class="nav-item dropdown" >
+                        <a id="nav-link-dropdown-toggle" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Company
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a id="action" class="dropdown-item" href="#">Action</a>
+                            </li>
+                            <li>
+                                <a id="another-action" class="dropdown-item" href="#">Another action</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="nav-item-dropdown-2" class="nav-item dropdown">
+                        <a id="resources" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Resources
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a id="action-2" class="dropdown-item" href="#">Action</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="nav-item-dropdown-3" class="nav-item dropdown">
+                        <a id="products" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a id="action-3" class="dropdown-item" href="#">Action</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="nav-item-2" class="nav-item">
+                        <a id="login" class="nav-link" href="#" tabindex="-1" aria-disabled="true">Login</a>
+                    </li>
+                    &nbsp;
+                    <li class="nav-item">
+                        <a id="get-start" href="#" class="btn btn-primary" role="button">Get Started</a>
+                    </li>
+                </ul>
+                <!-- <button class="btn btn-outline-success" type="">Get Started</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" > 
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="">
+            <li id="personal-2" class="nav-item">
+                <a id="personal-3" class=" text-white home-active" aria-current="page" href="#">Personal</a>
+            </li>
+            <li id="nav-item-3" class="nav-item">
+              <a id="business-2" class="text-white" href="#">Business</a>
+            </li>
+          </ul>
+          <div id="justify-content-between" class="d-flex justify-content-between" >
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li id="company" class="nav-item dropdown">
+                      <a id="company-2" class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Company
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li>
+                              <a id="action-4" 
+                                 class="dropdown-item"
+                                 href="#">Action</a>
+                          </li>
+                          <li>
+                              <a id="another-action-2"
+                                 class="dropdown-item"
+                                 href="#">Another action</a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown" id="nav-item-dropdown-4">
+                      <a id="resources-2" class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Resources
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li>
+                              <a id="action-5"
+                                 class="dropdown-item"
+                                 href="#">Action</a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li id="nav-item-dropdown-5" class="nav-item dropdown">
+                      <a id="products-2" style="" class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Products
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li>
+                              <a id="action-6"
+                                 class="dropdown-item"
+                                 href="#">Action</a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li id="nav-item-4" class="nav-item" >
+                      <a id="login-2"
+                         class="nav-link text-white"
+                         href="#"
+                         tabindex="-1"
+                         aria-disabled="true">Login</a>
+                  </li>
+                  &nbsp;
+                  <li class="nav-item">
+                      <a id="get-start-2"
+                         href="#"
+                         class="btn btn-primary"
+                         role="button">Get Started</a>
+                  </li>
+              </ul>
+              <!-- <button class="btn btn-outline-success" type="">Get Started</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="background-responsive-2" class="background-responsive">
+        <div class="container">
+            <div class="row">
+                <nav id="navbar-expand-lg-2" class="navbar navbar-expand-lg navbar-light text-white">
+                    <div class="container">
+                        <a  class="navbar-brand" href="#">
+                            <div id="navbar-brand-2">
+                                <img src="img/nebbix_logo.png" alt="" />
+                            </div>
+                        </a>
+                        <a class="navbar-toggler togglerDiv" id="navbar-toggler-2" style="">
+                            <span class="navbar-toggler togglerDiv hideToggler" id="menuList">
+                                <img src="img/icons/menu_icon.png">
+                            </span>
+                        </a>
+
+                        <!-- <i class="fas fa-times times-nav" style="text-align: right; color: #ffffff; display: none; text-align: right; font-size: 16px !important;">
+                        </i> -->
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="">
+                                <li class="nav-item">
+                                    <a class=" text-white home-active" aria-current="page" href="#">Personal</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a 
+                                       class="text-white"
+                                       href="#">Business</a>
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-between">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li id="nav-item-5" class="nav-item dropdown">
+
+                                        <a id="nav-link-2" class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Company
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li>
+                                                <a 
+                                                   class="dropdown-item navbardropdown-2"
+                                                   href="#">Action</a>
+                                            </li>
+                                            <li>
+                                                <a 
+                                                   class="dropdown-item .navbardropdown-3"
+                                                   href="#">Another action</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="nav-item-dropdown-6" class="nav-item dropdown" >
+                                        <a 
+                                           class="nav-link text-white dropdown-toggle navbardropdown-3"
+                                           href="#"
+                                           id="navbarDropdown"
+                                           role="button"
+                                           data-bs-toggle="dropdown"
+                                           aria-expanded="false">
+                                            Resources
+                                        </a>
+                                        <ul class="dropdown-menu navbardropdown-3" aria-labelledby="navbarDropdown">
+                                            <li>
+                                                <a 
+                                                   class="dropdown-item"
+                                                   href="#">Action</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown navbardropdown-marginright" >
+                                        <a 
+                                           class="nav-link text-white dropdown-toggle navbardropdown-3"
+                                           href="#"
+                                           id="navbarDropdown"
+                                           role="button"
+                                           data-bs-toggle="dropdown"
+                                           aria-expanded="false">
+                                            Products
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li>
+                                                <a 
+                                                   class="dropdown-item navbardropdown-3"
+                                                   href="#">Action</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item navbardropdown-marginright">
+                                        <a 
+                                           class="nav-link text-white navbardropdown-3"
+                                           href="#"
+                                           tabindex="-1"
+                                           aria-disabled="true">Login</a>
+                                    </li>
+                                    &nbsp;
+                                    <li class="nav-item">
+                                        <a 
+                                           href="#"
+                                           class="btn btn-primary navbardropdown-3"
+                                           role="button">Get Started</a>
+                                    </li>
+                                </ul>
+                                <!-- <button class="btn btn-outline-success" type="">Get Started</button> -->
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+      <div class="first-topmargin-div">
+        <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                <div class="color-2" >
+                  <p >Who is nebbix?</p>
+                  <h2 class="desktop-line-height color-7 serif-font" >
+                    We See a Different <br/>Future for Payments
+                  </h2>
+                  <p class="color-7">
+                   Nebbix is a blockchain tech start-up for trading (buying and selling) cryptocurrencies and provides a payment gateway to payment.
+                  </p>
+                </div>
+               <div>
+                  <div class="about-padding-top2">
+                    <div class="mobile-btn-padding about-padding-top">
+                      <a href="https://www.google.com" target="_blank" class="btn about-join-page" role="button">
+                        Join Nebbix
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="about-pad-bottom about-text-center" >
+                  <img src="./img/nebbix_about_logo.png" class="about-width">
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <section  class="classic-section about-pad-bottom2" >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 desktop-business-space-left">
+            <div style="">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="about-padding-top3">
+                      <img src="./img/about_nebbix.png" class="about-width2">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 desktop-padding-business-left">
+            <div class="desktop-padding-business-left about-height">
+              <div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <table class="about-height about-text-middle about-width3" >
+                      <tr>
+                        <td class="about-height about-text-middle about-width3" >
+                          <h2 class="serif-font">
+                            Why Nebbix
+                          </h2>
+                          <br/>
+                          <p>
+                            Nebbix is offering so many new innovative ways to make both individuals and organisations operate the cryptocurrency world seamlessly by providing a crypto trading bots for users to use for optimum trading experience.
+                          </p>
+                          <br/>
+                          <p>
+                            Apart from trading, the comppany offers solution that allow merchant sites and payment gateways to accept cryptocurrency as a method of payment, made possible through communicating with our API in Nigeria and beyond.
+                          </p>
+                          <p>
+                            With Nebbix you can store your funds in the most robust crypto wallet. Exchange 8 <a href="" style="color:  #0066F6 !important; ">Digital Currencies</a> including <a href="" style="color:  #0066F6 !important;">3 Fiat Accounts</a>. Buy Bitcoin and other digital currencies with bank cards in an easy and secure way with a 0% fee.
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="classic-section about-padding-top2 about-pad-bottom2" >
+      <div >
+        <div class="container">
+          <div class="row about-pad-both" >
+            <div class="col-md-4 text-center">
+              <div class="classic-card-2 about-background1" >
+                <div class="align-items-center">
+                  <img src="./img/icons/Directhit.png" class="about-height2">
+                </div>
+                <br/>
+                <h5>Our Mission</h5>
+                <br/>
+                <p class="section-7-fontsize-color" >
+                  Expand your reach by offering the safest, and cheapest form of payment.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 text-center">
+              <div class="classic-card-2 about-background2" >
+                <div class="align-items-center">
+                  <img src="./img/icons/Puzzle_piece.png" class="about-height2" >
+                </div>
+                <br/>
+                <h5>Our Vision</h5>
+                <br/>
+                <p class="section-7-fontsize-color" >
+                  Chargebacks are for card payments, you are 100% protected against fraud.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 text-center">
+              <div class="classic-card-2 about-background3" >
+                <div class="align-items-center">
+                  <img src="./img/icons/Rocket.png" class="about-height2" >
+                </div>
+                <br/>
+                <h5>What We Do</h5>
+                <br/>
+                <p class="section-7-fontsize-color" >
+                  Same fee for domestic and cross-border transactions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+   <!--  <section class="classic-section" style="padding-top: 120px; padding-bottom: 80px">
+      <div class="container">
+        <div class="text-center" >
+          <h2 class="serif-display">Why Choose <span style="color: #0066F6 ;">Nebbix</span></h2>
+        </div>
+        <br/>
+        <p class="text-center" style="color: background: rgba(102, 102, 102, 1);">Card Payments are cost, slow, and unreliable. Nebbix makes it easy for businesses to take <br> advantage of digital currency for faster, and low-cost payments.</p>
+        <div class="container">
+          <div class="row" style="padding: 50px 0;">
+            <div class="col-md-3 text-center">
+              <div class="classic-card">
+                <div class="align-items-center card-circle">
+                  <img src="./img/icons/Wallet.png" style="height: 30px;">
+                </div>
+                <br/>
+                <h5>Global Payment</h5>
+                <br/>
+                <p style="color: #666666; font-size: 16px">
+                  Expand your reach by offering the safest, and cheapest form of payment.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3 text-center">
+              <div class="classic-card">
+                <div class="align-items-center card-circle">
+                  <img src="./img/icons/Discovery.png" style="height: 30px;">
+                </div>
+                <br/>
+                <h5>No Chargebacks</h5>
+                <br/>
+                <p style="color: #666666; font-size: 16px">
+                  Chargebacks are for card payments, you are 100% protected against fraud.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3 text-center">
+              <div class="classic-card">
+                <div class="align-items-center card-circle">
+                  <img src="./img/icons/Chart.png" style="height: 30px;">
+                </div>
+                <br/>
+                <h5>Low fees</h5>
+                <br/>
+                <p style="color: #666666; font-size: 16px">
+                  Same fee for domestic and cross-border transactions.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3 text-center">
+              <div class="classic-card">
+                <div class="align-items-center card-circle">
+                  <img src="./img/icons/Shield-Done.png" style="height: 30px;">
+                </div>
+                <br/>
+                <h5>Free Setup</h5>
+                <br/>
+                <p style="color: #666666; font-size: 16px">
+                  No monthly or maintenance costs, setups are completely free.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section  class="classic-section about-background4 second-topmargin-div first-bottomargin-div about-height3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="about-text-center">
+              <div>
+                <h2 class="about-lineheight allmargin serif-font" ><span >What We Do Differently</span></h2>
+                <div class="gray-color about-padding-top" >
+                    <p class="about-lineheight2 about-fontsize1 ">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor, <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. 
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor, <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                    </p>
+                    <br/>
+                    <div class="about-text-center about-padding-top4" >
+                      <img src="./img/map_people.png" class="about-width" >
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section  class="classic-section about-background4 second-topmargin-div first-bottomargin-div about-height3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="about-text-center" >
+              <div>
+                <h2 class="allmargin about-lineheight serif-font" ><span>Team Nebbix</span></h2>
+                <div class="gray-color about-padding-top" >
+                    <p class="about-fontsize1 about-lineheight2" >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor, <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. 
+                    </p>
+                    <br/>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4 text-center">
+                  <div class="classic-card-2 second-bottomargin-div" >
+                    <img src="./img/team/default.png">
+                  </div>
+                  <div  class="market-section-col-3 about-text-center" >
+                    <h4>John Doe</h4>
+                    <div>CEO/CO-Founder</div>
+                  </div>
+                </div>
+                <div class="col-md-4 text-center">
+                  <div class="classic-card-2 second-bottomargin-div" >
+                    <img src="./img/team/default.png">
+                  </div>
+                  <div class="market-section-col-3 about-text-center">
+                    <h4>John Doe</h4>
+                    <div>CEO/CO-Founder</div>
+                  </div>
+                </div>
+                <div class="col-md-4 text-center">
+                  <div class="classic-card-2 second-bottomargin-div" >
+                    <img src="./img/team/default.png">
+                  </div>
+                  <div class="market-section-col-3 about-text-center">
+                    <h4>John Doe</h4>
+                    <div>CEO/CO-Founder</div>
+                  </div>
+                </div>
+                <div class="col-md-4 text-center">
+                  <div class="classic-card-2 second-bottomargin-div" >
+                    <img src="./img/team/default.png">
+                  </div>
+                  <div class="market-section-col-3 about-text-center">
+                    <h4>John Doe</h4>
+                    <div>CEO/CO-Founder</div>
+                  </div>
+                </div>
+                <div class="col-md-4 text-center">
+                  <div class="classic-card-2 second-bottomargin-div" >
+                    <img src="./img/team/default.png">
+                  </div>
+                  <div class="market-section-col-3 about-text-center">
+                    <h4>John Doe</h4>
+                    <div>CEO/CO-Founder</div>
+                  </div>
+                </div>
+                <div class="col-md-4 text-center">
+                  <div class="classic-card-2 second-bottomargin-div" >
+                    <img src="./img/team/default.png">
+                  </div>
+                  <div class="market-section-col-3 about-text-center">
+                    <h4>John Doe</h4>
+                    <div>CEO/CO-Founder</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background: url(./img/phone-bg.png) no-repeat center/cover;" class="mobile-store-section about-width3 about-padding-top3">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12" style="">
+              <table class="about-width3">
+                <tr class="about-width3 about-text-center" >
+                  <td class="about-height4 about-width3 about-text-middle" >
+                    <div>
+                    <h1 class="serif-font color-6">Join Nebbix</h1>
+                    <p class="color-8">Simply use Nebbix to manage multiple wallets on the go, get crypto, and shop gift cards</p>
+                    
+                    <div class="about-pad-bottom3">
+                      <p class="color-2 about-fontsize1" >
+                        <a href="" class="btn btn-primary color-9 about-width4">Join Us</a>
+                      </p>
+                    </div>
+                  </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-pad-bottom4 about-padding-top5" >
+        <div class="container">
+            <div class="row">
+                <section class="col-md-1"></section>
+                <section class="col-md-10 about-padding about-radius" >
+                    <div class="container">
+                        <div style="background: url(./img/bg.png) no-repeat center/cover;" class="col-12 text-center about-radius2 about-padding2 about-background5">
+                            <h2 class="serif-font-important">
+                                <span class="color-6">Join Nebbix Newsletter,</span> <span class="color-2">IT'S EASY!</span>
+                            </h2>
+                            <br/>
+                            <p class="color-7">Join millions of users globally to receive latest news and article that <br> have to do with crypto currency on Nebbix</p>
+                            <br/>
+                            <div>
+                                <input type="text" class="email_subscription" placeholder="Enter your email address"><input type="submit" value="Suscribe">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="col-md-1"></section>
+            </div>
+        </div>
+    </section>
+
+     <footer id="foot">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="foot-div1" >
+                        <div id="foot-div2">
+                            <div id="foot-div3" class="row">
+                                <div class="col-md-4">
+                                    <div id="foot-div4" style="">
+                                        <div class="footer-header">
+                                            <img src="./img/footer-logo.png" alt="">
+                                        </div>
+                                        <div class="footer-text">
+                                            <p id="foot-p">
+                                                Nebbix is a blockchain tech start-up for trading (buying and selling) cryptocurrencies and provides a payment gateway to payment.
+                                            </p>
+                                            <div style="">
+                                                <a href="#">
+                                                    <img class="mt-1 mb-1" src="./img/apple.png" alt="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="mt-1 mb-1" src="./img/playstore.png" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- <p>
+                                              Toronto, Canada
+                                            </p>
+                                            <p>
+                                              info@morethanjustalanguage.ca
+                                            </p> -->
+                                        </div>
+                                    </div>
+                                    <!-- <img src="img/logo.png" style="height: 100px"> -->
+                                </div>
+
+                                <div class="col-md-8">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div>
+                                                <h3 class="footer-header">Product</h3>
+                                                <div class="footer-text">
+                                                    <ul class="foot-ul-2">
+                                                        <li class="footer-link">
+                                                            <a href="#home" class="anchor-overwritter">Nebix API</a>
+                                                        </li>
+                                                        <li class="footer-link">
+                                                            <a href="#about" class="anchor-overwritter">Features</a>
+                                                        </li>
+                                                        <li class="footer-link">
+                                                            <a href="#portfolio" class="anchor-overwritter">Business</a>
+                                                        </li>
+                                                        <li class="footer-link">
+                                                            <a href="#portfolio" class="anchor-overwritter">Exchange</a>
+                                                        </li>
+                                                    
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div>
+                                                <h3 class="footer-header">Company</h3>
+                                                <div class="footer-text">
+                                                    <ul class="foot-ul-2">
+                                                        <li class="footer-link">
+                                                            <a href="#home" class="anchor-overwritter">About</a>
+                                                        </li>
+                                                        <li class="footer-link">
+                                                            <a href="#about" class="anchor-overwritter">Career</a>
+                                                        </li>
+                                                        <li class="footer-link">
+                                                            <a href="#portfolio" class="anchor-overwritter">Fees</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div>
+                                                <h3 class="footer-header">Learn</h3>
+                                                <div class="footer-text">
+                                                    <ul class="foot-ul-2">
+                                                        <li class="footer-link">
+                                                            <a href="#home" class="anchor-overwritter">Market Update</a>
+                                                        </li>
+                                                        <li class="footer-link">
+                                                            <a href="#about" class="anchor-overwritter">Press</a>
+                                                        </li>
+                                                        <li class="footer-link">
+                                                            <a href="#portfolio" class="anchor-overwritter">Blog</a>
+                                                        </li>
+                                                        <li class="footer-link">
+                                                            <a href="#portfolio" class="anchor-overwritter">Help Centre</a>
+                                                        </li>
+                                                        <li class="footer-link">
+                                                            <a href="#portfolio" class="anchor-overwritter">FAQ</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div>
+                                                <div class="footer-header">Legal</div>
+                                                <div class="footer-text">
+                                                    <ul class="foot-ul-2">
+                                                        <li class="footer-link">
+                                                            <a href="#home" class="anchor-overwritter">Security</a>
+                                                        </li>
+                                                        <li class="footer-link">
+                                                            <a href="#about" class="anchor-overwritter">Privacy Policy</a>
+                                                        </li>
+                                                        <li class="footer-link">
+                                                            <a href="#portfolio" class="anchor-overwritter">Terms of Use</a>
+                                                        </li>
+                                                        <li class="footer-link"></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between pt-3">
+                                <p id="copyright" class="" style="">
+                                    Copyright 2021 Nebbix. All RIghts Reserved
+                                </p>
+                                <div id="copyright-2" class=" ml-auto">
+                                    <i class="fab fa-twitter  m-2"></i>
+                                    <i class="fab fa-linkedin-in  m-2"></i>
+                                    <i class="fab fa-instagram-square  m-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <style type="text/css">
+      
+
+      input[type="submit"] {
+        margin-left: -120px;
+        height: 40px;
+        width:auto;
+        border-radius: 10px;
+        text-align: center;
+        padding: 5px 20px;
+        background: #0066F6;
+        color: white;
+        border: 0;
+        -webkit-appearance: none;
+      }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+    <script src="script/index.js"></script>
+</body>
+</html>
